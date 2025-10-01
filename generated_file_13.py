@@ -1,0 +1,6 @@
+- `POST /register` - Register a new user
+    - Payload: `{ "username": "your_username", "password": "your_password" }`
+- `POST /login` - Login and retrieve a token
+    - Payload: `{ "username": "your_username", "password": "your_password" }`
+- `GET /protected` - Access a protected route
+    - Header: `Authorization: Bearer <your_token>`
